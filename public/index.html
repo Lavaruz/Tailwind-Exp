@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section id="news" class="max-w-5xl mx-auto font-inter p-4">
+    <section id="news" class="max-w-2xl mx-auto font-inter p-4">
       <h1 class="text-4xl font-bold mb-2">
         Belajar
         <span
@@ -24,7 +24,7 @@
         CSS
       </h1>
       <p class="mb-4 text-lg text-gray-500">
-        by <span class="font-semibold text-stone-900">Assami Muzaki</span> 2
+        By <span class="font-semibold text-stone-900">Assami Muzaki</span>, 2
         January 2022
       </p>
       <div class="content">
@@ -48,6 +48,30 @@
           voluptatum beatae eos molestias temporibus recusandae, possimus quae.
         </p>
       </div>
+    </section>
+
+    <hr class="max-w-xl mb-4" />
+
+    <section class="p-4">
+      <form action="">
+        <label for="email-input">
+          <span
+            class="text-sm font-medium after:content-['*'] after:text-red-600 after:ml-1/2"
+            >Email</span
+          >
+          <input
+            id="email-input"
+            placeholder="masukan email..."
+            type="email"
+            class="w-full px-3 py-2 border border-slate-400 shadow-md rounded placeholder-slate-500 focus:outline-none focus:ring-indigo-500 focus:border-sky-400 invalid:border-pink-500 focus:invalid:border-pink-600 invalid:text-red-700 focus:invalid:text-red-500 peer"
+          />
+          <p
+            class="text-sm text-red-500 font-semibold m-1 invisible peer-invalid:visible"
+          >
+            email tidak valid
+          </p>
+        </label>
+      </form>
     </section>
   </body>
 </html>
